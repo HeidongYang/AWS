@@ -8,4 +8,3 @@ sudo systemctl enable apache2
 sudo chmod 777 index.html
 sudo echo "<h1>Hello World From $(hostname -f)</h1>" > /var/www/html/index.html
 sudo chmod 644 index.html
-Test
